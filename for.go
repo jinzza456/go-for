@@ -11,8 +11,15 @@ func main() {
 
 	// fmt.Println("최종 i 값은:", i)
 
+	// var i int
+	// for i = 0; i < 10; i++ {
+	// 	fmt.Println(i)
+	// }
+	// fmt.Println("최종 i 값은:", i)
+
 	var i int
-	for i = 0; i < 10; i++ {
+	for {
+		i++
 		fmt.Println(i)
 	}
 	fmt.Println("최종 i 값은:", i)
